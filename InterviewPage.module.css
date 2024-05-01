@@ -1,0 +1,35 @@
+.question-wrapper > div > div {
+  border-left: 4px solid #4193bf;
+  padding: 0.4em 0.8em;
+}
+
+.time-elapsed {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.record-button {
+  padding: 1em;
+  border-radius: 2em;
+  background-color: #4193bf;
+  color: #ffffff;
+  font-weight: bold;
+  border: 3px solid #1c658b;
+  outline: none;
+}
+
+.record-button.recording {
+  background-color: #e25050;
+  border: 3px solid #862c2c;
+}
+
+.skip-button {
+  width: fit-content;
+  margin: 0 auto;
+  background: none;
+  border: none;
+  outline: none;
+  color: #4193bf;
+  font-weight: bold;
+}
